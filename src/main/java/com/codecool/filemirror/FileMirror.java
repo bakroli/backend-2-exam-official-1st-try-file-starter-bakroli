@@ -17,7 +17,6 @@ public class FileMirror {
     public FileMirror(String path) {
         this.path = Paths.get(path);
         this.fileName = createFileName(path);
-        System.out.println(fileName);
     }
 
     private String createFileName(String path) {
